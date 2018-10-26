@@ -1,0 +1,33 @@
+.profileDiv{
+    display: flex;
+}
+
+.main h1{
+    /* flex-basis: 80%; */
+    flex-grow: 1
+}
+.main div{
+    /* flex-basis: 20%; */
+    /* flex-grow: 1 */
+    margin-right: 4em;
+    margin-top: 7px;
+}
+.main{
+    color: azure;
+    display: flex;
+    background-color: rgba(50, 6, 248, 0.664);
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-basis: 100%;
+}
+.image{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(243, 243, 241);
+    overflow: hidden
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+}
